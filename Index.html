@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home CV Deiby Avila</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        /* Style the header */
+        header {
+          background-color: rgb(109, 187, 240);
+          padding: 6px;
+          text-align: right;
+          font-size: 20px;
+          color: white;
+        }
+        
+        /* Container for flexboxes */
+        section {
+          display: -webkit-flex;
+          display: flex;
+        }
+        
+        /* Style the navigation menu */
+        nav {
+          -webkit-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          background: #ccc;
+          padding: 20px;
+        }
+        
+        /* Style the list inside the menu */
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        
+        /* Style the content */
+        article {
+          -webkit-flex: 3;
+          -ms-flex: 3;
+          flex: 3;
+          background-color: #f1f1f1;
+          padding: 20px;
+          color: rgb(47, 117, 221);
+        }
+        .contac {
+          -webkit-flex: 3;
+          -ms-flex: 3;
+          flex: 3;
+          background-color: rgba(44, 146, 214, 0.822);
+          padding: 20px;
+          color: white;
+        }
+
+        .flex-container > div {
+          background-color: DodgerBlue;
+          color: white;
+          margin: 10px;
+          text-align: center;
+          line-height: 75px;
+          font-size: 50px;
+        }
+        
+        /* Style the footer */
+        footer {
+          background-color: rgb(109, 187, 240);
+          padding: 10px;
+          text-align: center;
+          color: white;
+        }
+        
+        /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+        @media (max-width: 600px) {
+          section {
+            -webkit-flex-direction: column;
+            flex-direction: column;
+          }
+        }
+        </style>
+</head>
+<body>
+  <header>
+    
+  </header>
+  <section>
+    <article class="contac" style="flex-grow: 3">
+      <h1>Contac Info </h1>
+      <p><strong>Email:</strong>deibyavila@gmail.com</p>
+      <p><strong>Phone:</strong>+57 3214811171</p>
+      <br>
+      <br>
+      <br>
+      <h1>Skills</h1>
+      <p>NGFW Implementation</p>
+      <p>Networking</p>
+      <p>CD/CD</p>
+      <p>Data pipelines</p>
+      <p>ETL</p>
+      <p>Web Development</p>
+      <p>Passion for teaching</p>
+      <p>Passion for learning</p>
+    </article>
+    
+    <article style="flex-grow: 8">
+      <h2>Deiby Johany Avila Gutierrez</h2>
+      <h1>Profile</h1>
+      <p>IT manager with more than 5 years of experience leading IT teams, implementing high avaibility  Cluste and Firewalls in TI and
+         TO environments and monitoring. Also Python and PHP for more than 3 years.</p>
+      
+      <br>
+      <br>
+      <h1>Experience</h1>
+      <p>Security analist - Electrificadora de Santander -- 2020 - now.</p>
+      <p>Management security devices (Firewall, IPS), attend and made remediation alert from SOC, Implement Monitoring tool Zabbix to improve the 
+        visibility states of services and infrastructure, also development GPO to the goal of regulations statal.</p>
+      <p>Senior Bussines Inteligent - Help Technology and Service -- 2019 - 2020.</p>
+      <p>Development ETL and data clean process, creation of Power BI reports also performance optimization to queries and data bases engine PostgreSQL.</p>
+      <p>IT manager - CODIESEL  -- 2019 - 2020.</p>
+      <p>Development ETL and data clean process, creation of Power BI reports also performance optimization to queries and data bases engine PostgreSQL.</p>
+      <br>
+      <br>
+      <h1>Education</h1>
+      <p>UDI - Especialista en seguridad informatica - 2016.</p>
+      <p>UDI - Ingeniero de Sistemas - 2016.</p>
+    </article>
+  </section>
+  <footer>FIN</footer>
+    
+</body>
+</html>
